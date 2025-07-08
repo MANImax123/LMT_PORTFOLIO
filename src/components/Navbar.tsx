@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
 import { Menu, X } from 'lucide-react';
@@ -54,8 +53,8 @@ const Navbar = () => {
       )}
     >
       <div className="container mx-auto flex items-center justify-between">
-        <a href="#hero" className="text-xl font-bold tracking-tight">
-          <span className="text-gradient">Portfolio</span>
+        <a href="#hero" className="flex items-center gap-2">
+          <img src="/logoing.webp" alt="Logo" className="h-10 w-10 object-contain" />
         </a>
 
         {/* Desktop Navigation */}
