@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <div className="flex flex-col items-center md:items-start">
-              <span className="font-bold text-xl mb-2">John Doe</span>
+              <span className="font-bold text-xl mb-2">Maniteja</span>
               <p className="text-sm text-muted-foreground text-center md:text-left">
                 Frontend Developer crafting beautiful digital experiences
               </p>
